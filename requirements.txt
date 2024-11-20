@@ -1,0 +1,4 @@
+gspread
+telegram
+python-telegram-bot
+dotenv
