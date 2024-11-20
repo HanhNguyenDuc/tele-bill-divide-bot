@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  tele-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tele-bot-container
+    restart: unless-stopped
+    volumes:
+      - ./google_credential.json:/app/google_credential.json:ro
+      - ./.env:/app/.env:ro

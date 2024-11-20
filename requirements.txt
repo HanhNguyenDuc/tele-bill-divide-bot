@@ -1,4 +1,4 @@
 gspread
 telegram
 python-telegram-bot
-dotenv
+python-dotenv
